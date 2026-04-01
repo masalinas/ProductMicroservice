@@ -1,0 +1,27 @@
+# --- Directorios de salida de compilación ---
+[Bb]in/
+[Oo]bj/
+
+# --- Paquetes NuGet ---
+*.nupkg
+# La carpeta de paquetes suele estar fuera del proyecto, pero por si acaso:
+/packages/
+
+# --- Configuración de Editores (VS Code / Visual Studio) ---
+#.vscode/
+# Nota: A veces se prefiere subir launch.json y tasks.json 
+# para que el equipo comparta la configuración de debug. 
+# Si quieres subirlos, borra la línea de arriba.
+
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Configuración de la App (Seguridad) ---
+# En microservicios, a veces ignoramos los archivos de secretos
+# appsettings.Development.json # Descomenta si tiene claves reales
